@@ -1,19 +1,16 @@
 package com.ABCschool.models;
 
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 @Getter
 @Setter
 @AllArgsConstructor
+@NoArgsConstructor
 @ToString
 
 public class Courses {
     private int courseID;
     private String courseName;
     private String courseCategory;
-
 }

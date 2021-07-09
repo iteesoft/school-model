@@ -7,8 +7,8 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * The applicant class inherits from person class
- * and will be used to create all applicant.
+ * The applicant class was created using inheritance from person class
+ * and will be used to create all applicant objects.
  */
 
 public class Applicant extends User {
