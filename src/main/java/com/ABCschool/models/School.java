@@ -13,7 +13,6 @@ import java.util.List;
 
 public class School {
 
-    private List<Student> studentsList = new ArrayList<>();
     private List<Applicant> applicantList = new ArrayList<>();
     private List<Teacher> teachersList;
 
